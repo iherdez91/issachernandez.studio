@@ -1,17 +1,18 @@
 # Default theme configuration
 
+theme = "blowfish"
+
 [params]
   title = "My Website"
   description = "A simple website template."
   author = "John Doe"
 
-[menu]
-  [[menu.main]]
+[menu.main]
+  [[menu.main.items]]
     name = "Home"
     url = "/"
     weight = 1
-
-  [[menu.main]]
+  [[menu.main.items]]
     name = "About"
     url = "/about/"
     weight = 2
