@@ -1,3 +1,7 @@
+colorScheme = 'ocean'
+defaultAppearance = 'dark'
+autoSwitchAppearance = false
+
 mainSections = ["logbook", "riff-library", "the-portal", "commonplace", "the-studio", "project-a", "project-b", "project-c"]
 
 [homepage]
