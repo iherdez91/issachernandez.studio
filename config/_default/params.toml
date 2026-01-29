@@ -1,0 +1,11 @@
+mainSections = ["logbook", "riff-library", "the-portal", "commonplace", "the-studio", "project-a", "project-b", "project-c"]
+
+[homepage]
+  layout = "custom"
+  showRecent = true
+  showRecentItems = 8
+  cardView = true
+  cardViewScreenWidth = false
+
+[header]
+  layout = "basic"
