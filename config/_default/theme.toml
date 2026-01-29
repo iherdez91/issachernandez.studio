@@ -1,0 +1,17 @@
+# Default theme configuration
+
+[params]
+  title = "My Website"
+  description = "A simple website template."
+  author = "John Doe"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
