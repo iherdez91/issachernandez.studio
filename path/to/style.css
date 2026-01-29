@@ -1,0 +1,18 @@
+/* Example CSS changes for an ocean theme */
+body {
+    background-color: #007BFF; /* Deep blue background */
+    color: #FFFFFF; /* White text */
+}
+
+header, footer {
+    background-color: #1E90FF; /* Light blue header and footer */
+}
+
+nav a {
+    color: #00FFFF; /* Cyan links */
+}
+
+button, input[type="submit"] {
+    background-color: #4682B4; /* Steel blue buttons */
+    border-color: #007BFF; /* Deep blue border for buttons */
+}
