@@ -12,3 +12,5 @@ theme = 'blowfish'
   header.showLogo = false
   homepage.showMoreLink = false
   navigation.showHamburger = false
+
+[[menu.main]]
