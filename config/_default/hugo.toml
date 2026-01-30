@@ -1,16 +1,4 @@
-theme = 'blowfish'
-
-[params]
-  title = "My Website"
-  description = "A simple website template."
-  author = "John Doe"
-
-[menu.main]
-  [[menu.main.items]]
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main.items]]
-    name = "About"
-    url = "/about/"
-    weight = 2
+theme = "blowfish"
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "The Studio"
