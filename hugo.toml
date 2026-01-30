@@ -1,0 +1,14 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'The Studio'
+theme = 'blowfish'
+
+[params]
+  homepage.layout = "grid"
+  homepage.cardView = true
+  homepage.showRecent = false
+  mainSections = ["the-studio", "riff-library", "the-portal", "commonplace"]
+  header.sticky = true
+  header.showLogo = false
+  homepage.showMoreLink = false
+  navigation.showHamburger = false
