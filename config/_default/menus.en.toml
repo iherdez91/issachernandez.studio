@@ -1,24 +1,19 @@
 [[main]]
-  name = "Logbook"
-  pageRef = "logbook"
-  weight = 10
+  name = "The Studio"
+  url = "/the-studio/"
+  weight = 1
 
 [[main]]
   name = "Riff Library"
-  pageRef = "riff-library"
-  weight = 20
+  url = "/riff-library/"
+  weight = 2
 
 [[main]]
   name = "The Portal"
-  pageRef = "the-portal"
-  weight = 30
+  url = "/the-portal/"
+  weight = 3
 
 [[main]]
   name = "Commonplace"
-  pageRef = "commonplace"
-  weight = 40
-
-[[main]]
-  name = "The Studio"
-  pageRef = "the-studio"
-  weight = 50
+  url = "/commonplace/"
+  weight = 4
