@@ -1,19 +1,19 @@
-# [[main]]
-#   name = "The Studio"
-#   url = "/the-studio/"
-#   weight = 1
+[[main]]
+  name = "The Studio"
+  url = "/the-studio/"
+  weight = 1
 
-# [[main]]
-#   name = "Riff Library"
-#   url = "/riff-library/"
-#   weight = 2
+[[main]]
+  name = "Riff Library"
+  url = "/riff-library/"
+  weight = 2
 
-# [[main]]
-#   name = "The Portal"
-#   url = "/the-portal/"
-#   weight = 3
+[[main]]
+  name = "The Portal"
+  url = "/the-portal/"
+  weight = 3
 
-# [[main]]
-#   name = "Commonplace"
-#   url = "/commonplace/"
-#   weight = 4
+[[main]]
+  name = "Commonplace"
+  url = "/commonplace/"
+  weight = 4
