@@ -1,24 +1,24 @@
 [[main]]
-  # name = "Logbook"
-  # pageRef = "logbook"
-  # weight = 10
+  name = "Logbook"
+  pageRef = "logbook"
+  weight = 10
 
 [[main]]
-  # name = "Riff Library"
-  # pageRef = "riff-library"
-  # weight = 20
+  name = "Riff Library"
+  pageRef = "riff-library"
+  weight = 20
 
 [[main]]
-  # name = "The Portal"
-  # pageRef = "the-portal"
-  # weight = 30
+  name = "The Portal"
+  pageRef = "the-portal"
+  weight = 30
 
 [[main]]
-  # name = "Commonplace"
-  # pageRef = "commonplace"
-  # weight = 40
+  name = "Commonplace"
+  pageRef = "commonplace"
+  weight = 40
 
 [[main]]
-  # name = "The Studio"
-  # pageRef = "the-studio"
-  # weight = 50
+  name = "The Studio"
+  pageRef = "the-studio"
+  weight = 50
