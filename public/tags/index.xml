@@ -2,99 +2,99 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on The Studio</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:1313/issachernandez.studio/tags/</link>
     <description>Recent content in Tags on The Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Thu, 29 Jan 2026 12:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jan 2026 12:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/issachernandez.studio/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Boom-Bap</title>
-      <link>http://localhost:1313/tags/boom-bap/</link>
+      <link>http://localhost:1313/issachernandez.studio/tags/boom-bap/</link>
       <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/boom-bap/</guid>
+      <guid>http://localhost:1313/issachernandez.studio/tags/boom-bap/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Drums</title>
-      <link>http://localhost:1313/tags/drums/</link>
+      <link>http://localhost:1313/issachernandez.studio/tags/drums/</link>
       <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/drums/</guid>
+      <guid>http://localhost:1313/issachernandez.studio/tags/drums/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Hip-Hop</title>
-      <link>http://localhost:1313/tags/hip-hop/</link>
+      <link>http://localhost:1313/issachernandez.studio/tags/hip-hop/</link>
       <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/hip-hop/</guid>
+      <guid>http://localhost:1313/issachernandez.studio/tags/hip-hop/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ambient</title>
-      <link>http://localhost:1313/tags/ambient/</link>
+      <link>http://localhost:1313/issachernandez.studio/tags/ambient/</link>
       <pubDate>Thu, 29 Jan 2026 11:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/ambient/</guid>
+      <guid>http://localhost:1313/issachernandez.studio/tags/ambient/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Chill</title>
-      <link>http://localhost:1313/tags/chill/</link>
+      <link>http://localhost:1313/issachernandez.studio/tags/chill/</link>
       <pubDate>Thu, 29 Jan 2026 11:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/chill/</guid>
+      <guid>http://localhost:1313/issachernandez.studio/tags/chill/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Chords</title>
-      <link>http://localhost:1313/tags/chords/</link>
+      <link>http://localhost:1313/issachernandez.studio/tags/chords/</link>
       <pubDate>Thu, 29 Jan 2026 11:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/chords/</guid>
+      <guid>http://localhost:1313/issachernandez.studio/tags/chords/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Bass</title>
-      <link>http://localhost:1313/tags/bass/</link>
+      <link>http://localhost:1313/issachernandez.studio/tags/bass/</link>
       <pubDate>Thu, 29 Jan 2026 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/bass/</guid>
+      <guid>http://localhost:1313/issachernandez.studio/tags/bass/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Funk</title>
-      <link>http://localhost:1313/tags/funk/</link>
+      <link>http://localhost:1313/issachernandez.studio/tags/funk/</link>
       <pubDate>Thu, 29 Jan 2026 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/funk/</guid>
+      <guid>http://localhost:1313/issachernandez.studio/tags/funk/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Synth</title>
-      <link>http://localhost:1313/tags/synth/</link>
+      <link>http://localhost:1313/issachernandez.studio/tags/synth/</link>
       <pubDate>Thu, 29 Jan 2026 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/synth/</guid>
+      <guid>http://localhost:1313/issachernandez.studio/tags/synth/</guid>
       <description></description>
       
     </item>

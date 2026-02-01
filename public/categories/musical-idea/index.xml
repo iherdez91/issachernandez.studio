@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Musical Idea on The Studio</title>
-    <link>http://localhost:1313/categories/musical-idea/</link>
+    <link>http://localhost:1313/issachernandez.studio/categories/musical-idea/</link>
     <description>Recent content in Musical Idea on The Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Thu, 29 Jan 2026 12:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/musical-idea/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jan 2026 12:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/issachernandez.studio/categories/musical-idea/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>808 Boom Bap Pattern</title>
-      <link>http://localhost:1313/riff-library/drum-pattern/</link>
+      <link>http://localhost:1313/issachernandez.studio/riff-library/drum-pattern/</link>
       <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/riff-library/drum-pattern/</guid>
+      <guid>http://localhost:1313/issachernandez.studio/riff-library/drum-pattern/</guid>
       <description>&lt;p&gt;Edit the page&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
       
     </item>

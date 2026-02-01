@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Studio</title>
-    <link>http://localhost:1313/the-studio/</link>
+    <link>http://localhost:1313/issachernandez.studio/the-studio/</link>
     <description>Recent content on The Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Thu, 29 Jan 2026 17:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/the-studio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jan 2026 17:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/issachernandez.studio/the-studio/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>My Profile</title>
-      <link>http://localhost:1313/the-studio/my-profile-post/</link>
+      <link>http://localhost:1313/issachernandez.studio/the-studio/my-profile-post/</link>
       <pubDate>Thu, 29 Jan 2026 17:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/the-studio/my-profile-post/</guid>
+      <guid>http://localhost:1313/issachernandez.studio/the-studio/my-profile-post/</guid>
       <description>&lt;p&gt;This is my profile post.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>New Post with Image</title>
-      <link>http://localhost:1313/the-studio/new-post/</link>
+      <link>http://localhost:1313/issachernandez.studio/the-studio/new-post/</link>
       <pubDate>Thu, 29 Jan 2026 14:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/the-studio/new-post/</guid>
+      <guid>http://localhost:1313/issachernandez.studio/the-studio/new-post/</guid>
       <description>&lt;p&gt;This post has a featured image.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Profile Showcase</title>
-      <link>http://localhost:1313/the-studio/profile-showcase/</link>
+      <link>http://localhost:1313/issachernandez.studio/the-studio/profile-showcase/</link>
       <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/the-studio/profile-showcase/</guid>
+      <guid>http://localhost:1313/issachernandez.studio/the-studio/profile-showcase/</guid>
       <description>&lt;p&gt;Showcasing my profile image.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/the-studio/test-post/</link>
+      <link>http://localhost:1313/issachernandez.studio/the-studio/test-post/</link>
       <pubDate>Thu, 29 Jan 2026 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/the-studio/test-post/</guid>
+      <guid>http://localhost:1313/issachernandez.studio/the-studio/test-post/</guid>
       <description>&lt;p&gt;This is a test post!&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>The Studio</title>
-      <link>http://localhost:1313/the-studio/about/</link>
+      <link>http://localhost:1313/issachernandez.studio/the-studio/about/</link>
       <pubDate>Wed, 28 Jan 2026 11:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/the-studio/about/</guid>
+      <guid>http://localhost:1313/issachernandez.studio/the-studio/about/</guid>
       <description></description>
       
     </item>
