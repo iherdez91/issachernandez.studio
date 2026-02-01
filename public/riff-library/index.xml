@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Riff Library on The Studio</title>
-    <link>http://localhost:57599/issachernandez.studio/riff-library/</link>
+    <link>http://localhost:57980/issachernandez.studio/riff-library/</link>
     <description>Recent content in Riff Library on The Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Thu, 29 Jan 2026 12:00:00 +0000</lastBuildDate><atom:link href="http://localhost:57599/issachernandez.studio/riff-library/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jan 2026 12:00:00 +0000</lastBuildDate><atom:link href="http://localhost:57980/issachernandez.studio/riff-library/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>808 Boom Bap Pattern</title>
-      <link>http://localhost:57599/issachernandez.studio/riff-library/drum-pattern/</link>
+      <link>http://localhost:57980/issachernandez.studio/riff-library/drum-pattern/</link>
       <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:57599/issachernandez.studio/riff-library/drum-pattern/</guid>
+      <guid>http://localhost:57980/issachernandez.studio/riff-library/drum-pattern/</guid>
       <description>&lt;p&gt;Classic 808 boom bap pattern.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Riff Library</title>
-      <link>http://localhost:57599/issachernandez.studio/riff-library/about/</link>
+      <link>http://localhost:57980/issachernandez.studio/riff-library/about/</link>
       <pubDate>Wed, 28 Jan 2026 11:00:00 +0000</pubDate>
       
-      <guid>http://localhost:57599/issachernandez.studio/riff-library/about/</guid>
+      <guid>http://localhost:57980/issachernandez.studio/riff-library/about/</guid>
       <description></description>
       
     </item>
