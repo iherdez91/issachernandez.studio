@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Juno-106 on The Studio</title>
-    <link>http://localhost:1313/issachernandez.studio/gear/juno-106/</link>
+    <link>http://localhost:57384/issachernandez.studio/gear/juno-106/</link>
     <description>Recent content in Juno-106 on The Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Thu, 29 Jan 2026 11:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/issachernandez.studio/gear/juno-106/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jan 2026 11:00:00 +0000</lastBuildDate><atom:link href="http://localhost:57384/issachernandez.studio/gear/juno-106/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Dreamy Ambient Pad</title>
-      <link>http://localhost:1313/issachernandez.studio/riff-library/ambient-pad/</link>
+      <link>http://localhost:57384/issachernandez.studio/riff-library/ambient-pad/</link>
       <pubDate>Thu, 29 Jan 2026 11:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/issachernandez.studio/riff-library/ambient-pad/</guid>
+      <guid>http://localhost:57384/issachernandez.studio/riff-library/ambient-pad/</guid>
       <description>&lt;p&gt;Lush ambient pad with lots of reverb.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Funky Bass Line on Juno-106</title>
-      <link>http://localhost:1313/issachernandez.studio/riff-library/sample-riff/</link>
+      <link>http://localhost:57384/issachernandez.studio/riff-library/sample-riff/</link>
       <pubDate>Thu, 29 Jan 2026 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/issachernandez.studio/riff-library/sample-riff/</guid>
+      <guid>http://localhost:57384/issachernandez.studio/riff-library/sample-riff/</guid>
       <description>&lt;p&gt;Exploring a funky bass line using the Roland Juno-106.&lt;/p&gt;</description>
       
     </item>

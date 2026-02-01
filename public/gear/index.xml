@@ -2,62 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gear on The Studio</title>
-    <link>http://localhost:1313/issachernandez.studio/gear/</link>
+    <link>http://localhost:57599/issachernandez.studio/gear/</link>
     <description>Recent content in Gear on The Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Thu, 29 Jan 2026 12:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/issachernandez.studio/gear/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>MPC Live</title>
-      <link>http://localhost:1313/issachernandez.studio/gear/mpc-live/</link>
-      <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/issachernandez.studio/gear/mpc-live/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>TR-808</title>
-      <link>http://localhost:1313/issachernandez.studio/gear/tr-808/</link>
-      <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/issachernandez.studio/gear/tr-808/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Juno-106</title>
-      <link>http://localhost:1313/issachernandez.studio/gear/juno-106/</link>
-      <pubDate>Thu, 29 Jan 2026 11:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/issachernandez.studio/gear/juno-106/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Strymon BigSky</title>
-      <link>http://localhost:1313/issachernandez.studio/gear/strymon-bigsky/</link>
-      <pubDate>Thu, 29 Jan 2026 11:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/issachernandez.studio/gear/strymon-bigsky/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Ableton Live</title>
-      <link>http://localhost:1313/issachernandez.studio/gear/ableton-live/</link>
-      <pubDate>Thu, 29 Jan 2026 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/issachernandez.studio/gear/ableton-live/</guid>
-      <description></description>
-      
-    </item>
+    <atom:link href="http://localhost:57599/issachernandez.studio/gear/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

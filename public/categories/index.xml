@@ -2,42 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on The Studio</title>
-    <link>http://localhost:1313/issachernandez.studio/categories/</link>
+    <link>http://localhost:57599/issachernandez.studio/categories/</link>
     <description>Recent content in Categories on The Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Thu, 29 Jan 2026 12:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/issachernandez.studio/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Musical Idea</title>
-      <link>http://localhost:1313/issachernandez.studio/categories/musical-idea/</link>
-      <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/issachernandez.studio/categories/musical-idea/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Sound Design</title>
-      <link>http://localhost:1313/issachernandez.studio/categories/sound-design/</link>
-      <pubDate>Thu, 29 Jan 2026 11:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/issachernandez.studio/categories/sound-design/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Gear Spotlight</title>
-      <link>http://localhost:1313/issachernandez.studio/categories/gear-spotlight/</link>
-      <pubDate>Thu, 29 Jan 2026 10:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/issachernandez.studio/categories/gear-spotlight/</guid>
-      <description></description>
-      
-    </item>
+    <atom:link href="http://localhost:57599/issachernandez.studio/categories/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
