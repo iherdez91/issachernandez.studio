@@ -8,5 +8,5 @@ showReadingTime: false
 showWordCount: false
 summary: ""
 excludeFromList: true
-link: "/riff-library/"
+link: "/issachernandez.studio/riff-library/"
 ---

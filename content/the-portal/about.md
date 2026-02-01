@@ -8,5 +8,5 @@ showReadingTime: false
 showWordCount: false
 summary: ""
 excludeFromList: true
-link: "/the-band/"
+link: "/issachernandez.studio/the-portal/"
 ---

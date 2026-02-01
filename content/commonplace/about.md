@@ -8,5 +8,5 @@ showReadingTime: false
 showWordCount: false
 summary: ""
 excludeFromList: true
-link: "/commonplace/"
+link: "/issachernandez.studio/commonplace/"
 ---
