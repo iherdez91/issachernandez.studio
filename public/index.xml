@@ -2,130 +2,120 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Studio</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:58205/</link>
     <description>Recent content on The Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Fri, 30 Jan 2026 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Jan 2026 10:00:00 +0000</lastBuildDate><atom:link href="http://localhost:58205/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>What I&#39;m Working On</title>
-      <link>http://localhost:1313/now/sample-now-post/</link>
+      <link>http://localhost:58205/now/sample-now-post/</link>
       <pubDate>Fri, 30 Jan 2026 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/now/sample-now-post/</guid>
+      <guid>http://localhost:58205/now/sample-now-post/</guid>
       <description>&lt;p&gt;This is a sample Now post. The Now page is inspired by Derek Sivers&amp;rsquo; /now page movement - a place to share what you&amp;rsquo;re currently focused on.&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Currently&#xA;    &lt;div id=&#34;currently&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#currently&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Building out The Studio website&lt;/li&gt;&#xA;&lt;li&gt;Learning new synthesis techniques&lt;/li&gt;&#xA;&lt;li&gt;Recording new riffs&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
       
     </item>
     
     <item>
       <title>My Profile</title>
-      <link>http://localhost:1313/the-studio/my-profile-post/</link>
+      <link>http://localhost:58205/the-studio/my-profile-post/</link>
       <pubDate>Thu, 29 Jan 2026 17:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/the-studio/my-profile-post/</guid>
+      <guid>http://localhost:58205/the-studio/my-profile-post/</guid>
       <description>&lt;p&gt;This is my profile post.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>New Post with Image</title>
-      <link>http://localhost:1313/the-studio/new-post/</link>
+      <link>http://localhost:58205/the-studio/new-post/</link>
       <pubDate>Thu, 29 Jan 2026 14:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/the-studio/new-post/</guid>
+      <guid>http://localhost:58205/the-studio/new-post/</guid>
       <description>&lt;p&gt;This post has a featured image.&lt;/p&gt;</description>
       
     </item>
     
     <item>
-      <title>808 Boom Bap Pattern</title>
-      <link>http://localhost:1313/riff-library/drum-pattern/</link>
+      <title>Latency Issues</title>
+      <link>http://localhost:58205/riff-library/latency-issues/</link>
       <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/riff-library/drum-pattern/</guid>
-      <description>&lt;p&gt;Classic 808 boom bap pattern.&lt;/p&gt;</description>
+      <guid>http://localhost:58205/riff-library/latency-issues/</guid>
+      <description>&lt;p&gt;7 string guitar is a different animal. A friend of mine told me the best way to learn how to use it, is to write music with it. Between gain and compression I got a nice and nasty tone.&#xA;Also messing around with a recording set up that involves no editing.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Profile Showcase</title>
-      <link>http://localhost:1313/the-studio/profile-showcase/</link>
+      <link>http://localhost:58205/the-studio/profile-showcase/</link>
       <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/the-studio/profile-showcase/</guid>
+      <guid>http://localhost:58205/the-studio/profile-showcase/</guid>
       <description>&lt;p&gt;Showcasing my profile image.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/the-studio/test-post/</link>
+      <link>http://localhost:58205/the-studio/test-post/</link>
       <pubDate>Thu, 29 Jan 2026 10:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/the-studio/test-post/</guid>
+      <guid>http://localhost:58205/the-studio/test-post/</guid>
       <description>&lt;p&gt;This is a test post!&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Logbook</title>
-      <link>http://localhost:1313/logbook/about/</link>
+      <link>http://localhost:58205/logbook/about/</link>
       <pubDate>Wed, 28 Jan 2026 15:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/logbook/about/</guid>
+      <guid>http://localhost:58205/logbook/about/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>The Band</title>
-      <link>http://localhost:1313/the-portal/about/</link>
+      <link>http://localhost:58205/the-portal/about/</link>
       <pubDate>Wed, 28 Jan 2026 13:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/the-portal/about/</guid>
+      <guid>http://localhost:58205/the-portal/about/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Commonplace</title>
-      <link>http://localhost:1313/commonplace/about/</link>
+      <link>http://localhost:58205/commonplace/about/</link>
       <pubDate>Wed, 28 Jan 2026 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/commonplace/about/</guid>
+      <guid>http://localhost:58205/commonplace/about/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Riff Library</title>
-      <link>http://localhost:1313/riff-library/about/</link>
+      <link>http://localhost:58205/riff-library/about/</link>
       <pubDate>Wed, 28 Jan 2026 11:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/riff-library/about/</guid>
+      <guid>http://localhost:58205/riff-library/about/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>The Studio</title>
-      <link>http://localhost:1313/the-studio/about/</link>
+      <link>http://localhost:58205/the-studio/about/</link>
       <pubDate>Wed, 28 Jan 2026 11:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/the-studio/about/</guid>
+      <guid>http://localhost:58205/the-studio/about/</guid>
       <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Welcome to The Studio</title>
-      <link>http://localhost:1313/logbook/welcome/</link>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/logbook/welcome/</guid>
-      <description>&lt;p&gt;This is a test post in The Studio section.&lt;/p&gt;</description>
       
     </item>
     

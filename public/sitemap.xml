@@ -3,79 +3,75 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/now/</loc>
+    <loc>http://localhost:58205/now/</loc>
     <lastmod>2026-01-30T10:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:58205/</loc>
     <lastmod>2026-01-30T10:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/now/sample-now-post/</loc>
+    <loc>http://localhost:58205/now/sample-now-post/</loc>
     <lastmod>2026-01-30T10:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/the-studio/my-profile-post/</loc>
+    <loc>http://localhost:58205/the-studio/my-profile-post/</loc>
     <lastmod>2026-01-29T17:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/the-studio/</loc>
+    <loc>http://localhost:58205/the-studio/</loc>
     <lastmod>2026-01-29T17:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/the-studio/new-post/</loc>
+    <loc>http://localhost:58205/the-studio/new-post/</loc>
     <lastmod>2026-01-29T14:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/riff-library/drum-pattern/</loc>
+    <loc>http://localhost:58205/riff-library/latency-issues/</loc>
     <lastmod>2026-01-29T12:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/the-studio/profile-showcase/</loc>
+    <loc>http://localhost:58205/the-studio/profile-showcase/</loc>
     <lastmod>2026-01-29T12:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/riff-library/</loc>
+    <loc>http://localhost:58205/riff-library/</loc>
     <lastmod>2026-01-29T12:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/the-studio/test-post/</loc>
+    <loc>http://localhost:58205/the-studio/test-post/</loc>
     <lastmod>2026-01-29T10:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/logbook/</loc>
+    <loc>http://localhost:58205/logbook/</loc>
     <lastmod>2026-01-28T15:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/logbook/about/</loc>
+    <loc>http://localhost:58205/logbook/about/</loc>
     <lastmod>2026-01-28T15:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/the-portal/</loc>
+    <loc>http://localhost:58205/the-portal/</loc>
     <lastmod>2026-01-28T13:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/the-portal/about/</loc>
+    <loc>http://localhost:58205/the-portal/about/</loc>
     <lastmod>2026-01-28T13:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/commonplace/</loc>
+    <loc>http://localhost:58205/commonplace/</loc>
     <lastmod>2026-01-28T12:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/commonplace/about/</loc>
+    <loc>http://localhost:58205/commonplace/about/</loc>
     <lastmod>2026-01-28T12:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/riff-library/about/</loc>
+    <loc>http://localhost:58205/riff-library/about/</loc>
     <lastmod>2026-01-28T11:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/the-studio/about/</loc>
+    <loc>http://localhost:58205/the-studio/about/</loc>
     <lastmod>2026-01-28T11:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:1313/logbook/welcome/</loc>
-    <lastmod>2026-01-28T00:00:00+00:00</lastmod>
   </url>
 </urlset>
