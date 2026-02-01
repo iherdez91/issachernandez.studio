@@ -8,5 +8,5 @@ showReadingTime: false
 showWordCount: false
 summary: ""
 excludeFromList: true
-link: "/issachernandez.studio/the-studio/"
+link: "/the-studio/"
 ---

@@ -7,5 +7,5 @@ showDateUpdated: false
 showReadingTime: false
 showWordCount: false
 excludeFromList: true
-link: "/issachernandez.studio/riff-library/"
+link: "/riff-library/"
 ---
