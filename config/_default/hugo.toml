@@ -3,14 +3,20 @@ baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "The Studio"
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  gear = "gear"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [params]
   homepage.layout = "grid"
   homepage.cardView = true
   homepage.showRecent = false
-  mainSections = ["the-studio", "riff-library", "the-portal", "commonplace"]
+  mainSections = ["the-studio", "riff-library", "the-portal", "commonplace", "logbook"]
   header.sticky = true
   header.showLogo = false
   homepage.showMoreLink = false
   navigation.showHamburger = false
-
-# [[menu.main]]

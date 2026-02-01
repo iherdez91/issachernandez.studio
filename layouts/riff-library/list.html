@@ -1,0 +1,81 @@
+{{ define "main" }}
+<div class="riff-library-container">
+  <!-- Sidebar -->
+  <aside class="riff-sidebar">
+    <h3>Categories</h3>
+    <ul class="filter-list">
+      {{ range .Site.Taxonomies.categories }}
+        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a></li>
+      {{ end }}
+    </ul>
+
+    <h3>Tags</h3>
+    <div class="tag-cloud">
+      {{ range .Site.Taxonomies.tags }}
+        <a href="{{ .Page.Permalink }}" class="tag">{{ .Page.Title }}</a>
+      {{ end }}
+    </div>
+
+    <h3>Gear</h3>
+    <ul class="filter-list">
+      {{ range .Site.Taxonomies.gear }}
+        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }} ({{ .Count }})</a></li>
+      {{ end }}
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="riff-main">
+    <header>
+      <h1 class="text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+    </header>
+
+    {{ $pages := where .Pages "Params.excludeFromList" "ne" true }}
+    {{ $pages = where $pages "File.BaseFileName" "ne" "about" }}
+    {{ $paginator := .Paginate $pages 9 }}
+
+    <section class="riff-grid">
+      {{ range $paginator.Pages }}
+        {{ $postTitle := .Title }}
+        <article class="riff-card">
+          <a href="{{ .Permalink }}">
+            <div class="riff-thumbnail">
+              {{ with .Params.videoID }}
+                {{ $parts := split . "/" }}
+                {{ $libraryID := index $parts 0 }}
+                {{ $videoGUID := index $parts 1 }}
+                <img src="https://vz-{{ $libraryID }}.b-cdn.net/{{ $videoGUID }}/thumbnail.jpg" alt="{{ $postTitle }}" loading="lazy">
+              {{ else }}
+                <div class="riff-placeholder">🎸</div>
+              {{ end }}
+            </div>
+            <div class="riff-info">
+              <h2>{{ .Title }}</h2>
+              {{ with .Params.categories }}
+                <span class="riff-category">{{ index . 0 }}</span>
+              {{ end }}
+            </div>
+          </a>
+        </article>
+      {{ end }}
+    </section>
+
+    <!-- Pagination -->
+    {{ if gt $paginator.TotalPages 1 }}
+    <nav class="riff-pagination">
+      {{ if $paginator.HasPrev }}
+        <a href="{{ $paginator.Prev.URL }}" class="pagination-btn">← Previous</a>
+      {{ end }}
+      
+      <span class="pagination-info">
+        Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}
+      </span>
+      
+      {{ if $paginator.HasNext }}
+        <a href="{{ $paginator.Next.URL }}" class="pagination-btn">Next →</a>
+      {{ end }}
+    </nav>
+    {{ end }}
+  </main>
+</div>
+{{ end }}

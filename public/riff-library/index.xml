@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Riff Library on The Studio</title>
+    <link>http://localhost:1313/riff-library/</link>
+    <description>Recent content in Riff Library on The Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Thu, 29 Jan 2026 12:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/riff-library/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>808 Boom Bap Pattern</title>
+      <link>http://localhost:1313/riff-library/drum-pattern/</link>
+      <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/riff-library/drum-pattern/</guid>
+      <description>&lt;p&gt;Edit the page&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Dreamy Ambient Pad</title>
+      <link>http://localhost:1313/riff-library/ambient-pad/</link>
+      <pubDate>Thu, 29 Jan 2026 11:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/riff-library/ambient-pad/</guid>
+      <description>&lt;p&gt;Lush ambient pad with lots of reverb.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Funky Bass Line on Juno-106</title>
+      <link>http://localhost:1313/riff-library/sample-riff/</link>
+      <pubDate>Thu, 29 Jan 2026 10:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/riff-library/sample-riff/</guid>
+      <description>&lt;p&gt;Exploring a funky bass line using the Roland Juno-106.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Riff Library</title>
+      <link>http://localhost:1313/riff-library/about/</link>
+      <pubDate>Wed, 28 Jan 2026 14:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/riff-library/about/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

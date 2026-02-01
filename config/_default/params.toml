@@ -1,8 +1,9 @@
-colorScheme = 'ocean'
-defaultAppearance = 'dark'
-autoSwitchAppearance = false
+colorScheme = "ocean"
+defaultAppearance = "dark"
+mainSections = ["logbook", "riff-library", "the-portal", "commonplace", "the-studio"]
 
-mainSections = ["logbook", "riff-library", "the-portal", "commonplace", "the-studio", "project-a", "project-b", "project-c"]
+# Enable search
+enableSearch = true
 
 [homepage]
   layout = "custom"
@@ -13,3 +14,11 @@ mainSections = ["logbook", "riff-library", "the-portal", "commonplace", "the-stu
 
 [header]
   layout = "basic"
+
+[article]
+  showWordCount = false
+  showReadingTime = false
+
+[list]
+  cardView = true
+  groupByYear = false

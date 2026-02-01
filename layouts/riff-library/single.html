@@ -1,0 +1,99 @@
+{{ define "main" }}
+<article class="riff-single">
+  <!-- Back Button -->
+  <a href="/riff-library/" class="riff-back-btn">← Back to Riff Library</a>
+
+  <header class="riff-header">
+    <h1 class="text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+    <time class="riff-date">{{ .Date.Format "January 2, 2006" }}</time>
+  </header>
+
+  <!-- Video Player -->
+  <div class="riff-video-container">
+    {{ with .Params.videoID }}
+      {{ $parts := split . "/" }}
+      {{ $libraryID := index $parts 0 }}
+      {{ $videoGUID := index $parts 1 }}
+      <iframe 
+        src="https://iframe.mediadelivery.net/embed/{{ $libraryID }}/{{ $videoGUID }}" 
+        loading="lazy" 
+        style="border:none;width:100%;height:100%;" 
+        allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" 
+        allowfullscreen="true">
+      </iframe>
+    {{ else }}
+      <div class="riff-no-video">Video not available</div>
+    {{ end }}
+  </div>
+
+  <!-- Description -->
+  <div class="riff-content prose dark:prose-invert">
+    {{ .Content }}
+  </div>
+
+  <!-- Metadata -->
+  <div class="riff-meta">
+    {{ with .Params.categories }}
+    <div class="riff-meta-item">
+      <strong>Category:</strong>
+      {{ range . }}
+        <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ with .Params.tags }}
+    <div class="riff-meta-item">
+      <strong>Tags:</strong>
+      {{ range . }}
+        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/" class="tag">{{ . }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{ with .Params.gear }}
+    <div class="riff-meta-item">
+      <strong>Gear:</strong>
+      {{ range . }}
+        <a href="{{ "/gear/" | relLangURL }}{{ . | urlize }}/" class="gear-tag">{{ . }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+
+  <!-- Navigation -->
+  <nav class="riff-nav">
+    {{ with .PrevInSection }}
+      <a href="{{ .Permalink }}" class="riff-nav-btn prev">← {{ .Title }}</a>
+    {{ end }}
+    {{ with .NextInSection }}
+      <a href="{{ .Permalink }}" class="riff-nav-btn next">{{ .Title }} →</a>
+    {{ end }}
+  </nav>
+
+  <!-- Related Videos -->
+  {{ $related := .Site.RegularPages.Related . | first 3 }}
+  {{ with $related }}
+  <section class="riff-related">
+    <h2>Related Riffs</h2>
+    <div class="riff-related-grid">
+      {{ range . }}
+        <a href="{{ .Permalink }}" class="riff-related-card">
+          <div class="riff-thumbnail-small">
+            {{ with .Params.videoID }}
+              {{ $parts := split . "/" }}
+              {{ $libraryID := index $parts 0 }}
+              {{ $videoGUID := index $parts 1 }}
+              <img src="https://vz-{{ $libraryID }}.b-cdn.net/{{ $videoGUID }}/thumbnail.jpg" alt="{{ .Title }}" loading="lazy">
+            {{ else }}
+              <div class="riff-placeholder-small">🎸</div>
+            {{ end }}
+          </div>
+          <span>{{ .Title }}</span>
+        </a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+</article>
+{{ end }}

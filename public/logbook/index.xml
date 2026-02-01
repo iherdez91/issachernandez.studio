@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logbook on The Studio</title>
+    <link>http://localhost:1313/logbook/</link>
+    <description>Recent content in Logbook on The Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 </copyright>
+    <lastBuildDate>Wed, 28 Jan 2026 15:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/logbook/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Logbook</title>
+      <link>http://localhost:1313/logbook/about/</link>
+      <pubDate>Wed, 28 Jan 2026 15:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/logbook/about/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Welcome to The Studio</title>
+      <link>http://localhost:1313/logbook/welcome/</link>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/logbook/welcome/</guid>
+      <description>&lt;p&gt;This is a test post in The Studio section.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

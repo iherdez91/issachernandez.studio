@@ -1,0 +1,16 @@
+[[main]]
+  name = "The Studio"
+  pageRef = "the-studio"
+  weight = 10
+[[main]]
+  name = "Riff Library"
+  pageRef = "riff-library"
+  weight = 20
+[[main]]
+  name = "The Portal"
+  pageRef = "the-portal"
+  weight = 30
+[[main]]
+  name = "Commonplace"
+  pageRef = "commonplace"
+  weight = 40

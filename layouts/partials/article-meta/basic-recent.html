@@ -1,0 +1,5 @@
+{{ if .Date }}
+  <time datetime="{{ .Date.Format "2006-01-02" }}">
+    {{ .Date | time.Format (default ":date_long" (.Site.Params.article.dateFormat | default "2 January 2006")) }}
+  </time>
+{{ end }}

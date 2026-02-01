@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="now-container">
+  <main class="now-main">
+    <header>
+      <h1 class="text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+    </header>
+
+    {{ $pages := where .Pages "Params.excludeFromList" "ne" true }}
+    {{ $pages = where $pages "File.BaseFileName" "ne" "about" }}
+
+    <section class="now-grid">
+      {{ range $pages.ByDate.Reverse }}
+        <article class="now-card">
+          <a href="{{ .Permalink }}">
+            <div class="now-info">
+              <h2>{{ .Title }}</h2>
+              <time>{{ .Date.Format "January 2, 2006" }}</time>
+              {{ with .Summary }}
+                <p>{{ . | truncate 100 }}</p>
+              {{ end }}
+            </div>
+          </a>
+        </article>
+      {{ end }}
+    </section>
+  </main>
+</div>
+{{ end }}

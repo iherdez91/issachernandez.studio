@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="homepage-content">
+<article class="max-w-full prose dark:prose-invert">
+  <section class="w-full">{{ .Content }}</section>
+</article>
+<section>
+  {{ $allPages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+  {{ $staticCards := where $allPages "Params.excludeFromList" true }}
+  {{ $recentPosts := where $allPages "Params.excludeFromList" "ne" true }}
+  {{ $recentPosts = where $recentPosts "File.BaseFileName" "ne" "about" }}
+  {{ $recentPosts = where $recentPosts "File.BaseFileName" "ne" "_index" }}
+  {{ $recentPosts = $recentPosts.ByDate.Reverse }}
+  {{ $recentPosts = first 3 $recentPosts }}
+  
+  <section class="w-full grid gap-4">
+    {{ range $staticCards }}
+      {{ partial "article-link/card.html" . }}
+    {{ end }}
+    {{ range $recentPosts }}
+      {{ partial "article-link/card.html" . }}
+    {{ end }}
+  </section>
+</section>
+</div>
+{{ end }}
