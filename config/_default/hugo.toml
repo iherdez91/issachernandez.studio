@@ -20,3 +20,8 @@ title = "The Studio"
   header.showLogo = false
   homepage.showMoreLink = false
   navigation.showHamburger = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
