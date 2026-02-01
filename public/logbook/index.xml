@@ -19,15 +19,5 @@
       
     </item>
     
-    <item>
-      <title>Welcome to The Studio</title>
-      <link>http://localhost:1313/logbook/welcome/</link>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/logbook/welcome/</guid>
-      <description>&lt;p&gt;This is a test post in The Studio section.&lt;/p&gt;</description>
-      
-    </item>
-    
   </channel>
 </rss>
