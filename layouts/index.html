@@ -9,6 +9,7 @@
   {{ $recentPosts := where $allPages "Params.excludeFromList" "ne" true }}
   {{ $recentPosts = where $recentPosts "File.BaseFileName" "ne" "about" }}
   {{ $recentPosts = where $recentPosts "File.BaseFileName" "ne" "_index" }}
+  {{ $recentPosts = where $recentPosts "Section" "ne" "riff-library" }}
   {{ $recentPosts = $recentPosts.ByDate.Reverse }}
   {{ $recentPosts = first 3 $recentPosts }}
   

@@ -2,12 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on The Studio</title>
-    <link>http://localhost:59991/tags/</link>
+    <link>http://localhost:60196/tags/</link>
     <description>Recent content in Tags on The Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <atom:link href="http://localhost:59991/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jan 2026 12:00:00 +0000</lastBuildDate><atom:link href="http://localhost:60196/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>7-String</title>
+      <link>http://localhost:60196/tags/7-string/</link>
+      <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:60196/tags/7-string/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Guitar</title>
+      <link>http://localhost:60196/tags/guitar/</link>
+      <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:60196/tags/guitar/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tone</title>
+      <link>http://localhost:60196/tags/tone/</link>
+      <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:60196/tags/tone/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>

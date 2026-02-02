@@ -3,83 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:59991/the-studio/featured-test/</loc>
-    <lastmod>2026-02-01T12:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:59991/</loc>
-    <lastmod>2026-02-01T12:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:59991/the-studio/</loc>
-    <lastmod>2026-02-01T12:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:59991/logbook/logbook-1/</loc>
+    <loc>http://localhost:60196/logbook/logbook-1/</loc>
     <lastmod>2026-01-30T14:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:59991/logbook/</loc>
+    <loc>http://localhost:60196/logbook/</loc>
     <lastmod>2026-01-30T14:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:59991/now/</loc>
-    <lastmod>2026-01-30T10:00:00+00:00</lastmod>
+    <loc>http://localhost:60196/</loc>
+    <lastmod>2026-01-30T14:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:59991/now/sample-now-post/</loc>
-    <lastmod>2026-01-30T10:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:59991/the-studio/my-profile-post/</loc>
-    <lastmod>2026-01-29T17:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:59991/the-studio/new-post/</loc>
-    <lastmod>2026-01-29T14:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:59991/riff-library/latency-issues/</loc>
+    <loc>http://localhost:60196/riff-library/latency-issues/</loc>
     <lastmod>2026-01-29T12:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:59991/the-studio/profile-showcase/</loc>
+    <loc>http://localhost:60196/riff-library/</loc>
     <lastmod>2026-01-29T12:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:59991/riff-library/</loc>
-    <lastmod>2026-01-29T12:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:59991/the-studio/test-post/</loc>
-    <lastmod>2026-01-29T10:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:59991/logbook/about/</loc>
+    <loc>http://localhost:60196/logbook/about/</loc>
     <lastmod>2026-01-28T15:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:59991/the-portal/</loc>
+    <loc>http://localhost:60196/the-portal/</loc>
     <lastmod>2026-01-28T13:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:59991/the-portal/about/</loc>
+    <loc>http://localhost:60196/the-portal/about/</loc>
     <lastmod>2026-01-28T13:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:59991/commonplace/</loc>
+    <loc>http://localhost:60196/commonplace/</loc>
     <lastmod>2026-01-28T12:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:59991/commonplace/about/</loc>
+    <loc>http://localhost:60196/commonplace/about/</loc>
     <lastmod>2026-01-28T12:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:59991/riff-library/about/</loc>
+    <loc>http://localhost:60196/riff-library/about/</loc>
     <lastmod>2026-01-28T11:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:59991/the-studio/about/</loc>
+    <loc>http://localhost:60196/the-studio/</loc>
     <lastmod>2026-01-28T11:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:60196/the-studio/about/</loc>
+    <lastmod>2026-01-28T11:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:60196/now/</loc>
   </url>
 </urlset>

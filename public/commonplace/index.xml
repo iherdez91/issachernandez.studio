@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Commonplace on The Studio</title>
-    <link>http://localhost:59991/commonplace/</link>
+    <link>http://localhost:60196/commonplace/</link>
     <description>Recent content in Commonplace on The Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Wed, 28 Jan 2026 12:00:00 +0000</lastBuildDate><atom:link href="http://localhost:59991/commonplace/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jan 2026 12:00:00 +0000</lastBuildDate><atom:link href="http://localhost:60196/commonplace/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Commonplace</title>
-      <link>http://localhost:59991/commonplace/about/</link>
+      <link>http://localhost:60196/commonplace/about/</link>
       <pubDate>Wed, 28 Jan 2026 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:59991/commonplace/about/</guid>
+      <guid>http://localhost:60196/commonplace/about/</guid>
       <description></description>
       
     </item>
