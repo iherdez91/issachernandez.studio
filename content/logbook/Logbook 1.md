@@ -2,7 +2,7 @@
 title: Building this website
 date: 2026-01-30T14:00:00
 draft: false
-featureimage: /images/building_destroyer
+featureimage: /images/building_destroyer.jpg
 ---
 ### The build
 
