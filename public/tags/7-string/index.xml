@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>7-String on The Studio</title>
-    <link>http://localhost:60196/tags/7-string/</link>
+    <link>http://localhost:60282/tags/7-string/</link>
     <description>Recent content in 7-String on The Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Thu, 29 Jan 2026 12:00:00 +0000</lastBuildDate><atom:link href="http://localhost:60196/tags/7-string/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jan 2026 12:00:00 +0000</lastBuildDate><atom:link href="http://localhost:60282/tags/7-string/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Latency Issues</title>
-      <link>http://localhost:60196/riff-library/latency-issues/</link>
+      <link>http://localhost:60282/riff-library/latency-issues/</link>
       <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:60196/riff-library/latency-issues/</guid>
+      <guid>http://localhost:60282/riff-library/latency-issues/</guid>
       <description>&lt;p&gt;7 string guitar is a different animal. A friend of mine told me the best way to learn how to use it, is to write music with it. Between gain and compression I got a nice and nasty tone.&#xA;Also messing around with a recording set up that involves no editing.&lt;/p&gt;</description>
       
     </item>

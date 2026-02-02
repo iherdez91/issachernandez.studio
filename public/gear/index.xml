@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gear on The Studio</title>
-    <link>http://localhost:60196/gear/</link>
+    <link>http://localhost:60282/gear/</link>
     <description>Recent content in Gear on The Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Thu, 29 Jan 2026 12:00:00 +0000</lastBuildDate><atom:link href="http://localhost:60196/gear/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jan 2026 12:00:00 +0000</lastBuildDate><atom:link href="http://localhost:60282/gear/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>7-String Guitar</title>
-      <link>http://localhost:60196/gear/7-string-guitar/</link>
+      <link>http://localhost:60282/gear/7-string-guitar/</link>
       <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:60196/gear/7-string-guitar/</guid>
+      <guid>http://localhost:60282/gear/7-string-guitar/</guid>
       <description></description>
       
     </item>

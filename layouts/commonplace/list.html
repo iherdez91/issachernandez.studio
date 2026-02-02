@@ -1,0 +1,99 @@
+{{ define "main" }}
+<div class="riff-library-container">
+  <!-- Sidebar -->
+  <aside class="riff-sidebar">
+    <button class="filter-reset" onclick="resetFilters()">Show All</button>
+    <h3>Categories</h3>
+    <ul class="filter-list">
+      {{ $sectionPages := where .Site.RegularPages "Section" "commonplace" }}
+      {{ $categories := slice }}
+      {{ range $sectionPages }}
+        {{ with .Params.categories }}
+          {{ range . }}
+            {{ $categories = $categories | append . }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ $categories = $categories | uniq }}
+      {{ range $categories }}
+        <li><a href="#" class="filter-link" onclick="filterPosts('category', '{{ . | urlize }}'); return false;">{{ . }}</a></li>
+      {{ end }}
+    </ul>
+    <h3>Tags</h3>
+    <div class="tag-cloud">
+      {{ $tags := slice }}
+      {{ range $sectionPages }}
+        {{ with .Params.tags }}
+          {{ range . }}
+            {{ $tags = $tags | append . }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ $tags = $tags | uniq }}
+      {{ range $tags }}
+        <a href="#" class="tag filter-link" onclick="filterPosts('tag', '{{ . | urlize }}'); return false;">{{ . }}</a>
+      {{ end }}
+    </div>
+  </aside>
+  <!-- Main Content -->
+  <main class="riff-main">
+    <header>
+      <h1 class="text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+    </header>
+    {{ $pages := where .Pages "Params.excludeFromList" "ne" true }}
+    {{ $pages = where $pages "File.BaseFileName" "ne" "about" }}
+    <section class="riff-grid">
+      {{ range $pages.ByDate.Reverse }}
+        {{ $categories := slice }}
+        {{ with .Params.categories }}{{ range . }}{{ $categories = $categories | append (. | urlize) }}{{ end }}{{ end }}
+        {{ $tags := slice }}
+        {{ with .Params.tags }}{{ range . }}{{ $tags = $tags | append (. | urlize) }}{{ end }}{{ end }}
+        <article class="riff-card" data-categories="{{ delimit $categories "," }}" data-tags="{{ delimit $tags "," }}">
+          <a href="{{ .Permalink }}">
+            {{ with .Params.featureimage }}
+              {{ $img := resources.Get . }}
+              {{ with $img }}
+              <div class="riff-thumbnail">
+                <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" loading="lazy">
+              </div>
+              {{ end }}
+            {{ else }}
+              <div class="riff-thumbnail">
+                <div class="riff-placeholder">📝</div>
+              </div>
+            {{ end }}
+            <div class="riff-info">
+              <h2>{{ .Title }}</h2>
+              {{ with .Params.categories }}
+                <span class="riff-category">{{ index . 0 }}</span>
+              {{ end }}
+            </div>
+          </a>
+        </article>
+      {{ end }}
+    </section>
+  </main>
+</div>
+
+<script>
+function filterPosts(type, value) {
+  const cards = document.querySelectorAll('.riff-card');
+  cards.forEach(card => {
+    const data = card.dataset[type + 's'] || '';
+    const values = data.split(',');
+    if (values.includes(value)) {
+      card.style.display = '';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+
+function resetFilters() {
+  const cards = document.querySelectorAll('.riff-card');
+  cards.forEach(card => {
+    card.style.display = '';
+  });
+}
+</script>
+{{ end }}
