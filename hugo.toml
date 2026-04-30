@@ -6,7 +6,7 @@ theme = "FeelIt"
 
 [params]
   version = "1.0.X"
-  defaultTheme = "dark"
+  defaultTheme = "light"
   description = "The Studio — Issac Hernandez"
 
 [menu]
