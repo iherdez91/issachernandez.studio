@@ -1,8 +1,0 @@
-languageCode = "en"
-languageName = "English"
-weight = 1
-title = "The Studio"
-
-[params]
-  colorScheme = "ocean"
-  displayName = "EN"
