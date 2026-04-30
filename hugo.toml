@@ -9,12 +9,41 @@ theme = "FeelIt"
   defaultTheme = "light"
   description = "The Studio — Issac Hernandez"
 
+  [params.home]
+    rss = 10
+    [params.home.profile]
+      enable = true
+      avatarURL = "/images/profile.jpg"
+      title = "Issac Hernandez"
+      subtitle = "The Studio"
+      typeit = true
+      social = false
+
+  [params.home.posts]
+    enable = true
+    paginate = 6
+
 [menu]
   [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
+    identifier = "riff-library"
+    name = "Riff Library"
+    url = "/riff-library/"
     weight = 1
+  [[menu.main]]
+    identifier = "logbook"
+    name = "Logbook"
+    url = "/logbook/"
+    weight = 2
+  [[menu.main]]
+    identifier = "the-studio"
+    name = "The Studio"
+    url = "/the-studio/"
+    weight = 3
+  [[menu.main]]
+    identifier = "division-of-the-north"
+    name = "Division of the North"
+    url = "/division-of-the-north/"
+    weight = 4
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

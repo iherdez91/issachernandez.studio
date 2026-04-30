@@ -3,6 +3,10 @@
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
             <loc>http://localhost:1313/categories/</loc></url><url>
+            <loc>http://localhost:1313/division-of-the-north/</loc></url><url>
+            <loc>http://localhost:1313/logbook/</loc></url><url>
             <loc>http://localhost:1313/offline/</loc></url><url>
+            <loc>http://localhost:1313/riff-library/</loc></url><url>
             <loc>http://localhost:1313/tags/</loc></url><url>
-            <loc>http://localhost:1313/</loc></url></urlset>
+            <loc>http://localhost:1313/</loc></url><url>
+            <loc>http://localhost:1313/the-studio/</loc></url></urlset>
